@@ -39,7 +39,7 @@ router.delete('/contact/:id', (req, res, next)=>{
         else{
             res.json(result);
         }
-    })
+    });
 });
 
 module.exports = router;
